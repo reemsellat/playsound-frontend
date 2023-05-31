@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.655b2594.css",
-    "main.js": "/static/js/main.b7e7de07.js",
-    "static/media/playsound_prev_ui.png": "/static/media/playsound_prev_ui.de109a9af28d895103c1.png",
-    "static/media/dvd.jpg": "/static/media/dvd.56928a1aeadec0f283e9.jpg",
-    "index.html": "/index.html",
-    "main.655b2594.css.map": "/static/css/main.655b2594.css.map",
-    "main.b7e7de07.js.map": "/static/js/main.b7e7de07.js.map"
+    "main.css": "/reemsellat/playsound-frontend/static/css/main.655b2594.css",
+    "main.js": "/reemsellat/playsound-frontend/static/js/main.29c39c0f.js",
+    "static/media/playsound_prev_ui.png": "/reemsellat/playsound-frontend/static/media/playsound_prev_ui.de109a9af28d895103c1.png",
+    "static/media/dvd.jpg": "/reemsellat/playsound-frontend/static/media/dvd.56928a1aeadec0f283e9.jpg",
+    "index.html": "/reemsellat/playsound-frontend/index.html",
+    "main.655b2594.css.map": "/reemsellat/playsound-frontend/static/css/main.655b2594.css.map",
+    "main.29c39c0f.js.map": "/reemsellat/playsound-frontend/static/js/main.29c39c0f.js.map"
   },
   "entrypoints": [
     "static/css/main.655b2594.css",
-    "static/js/main.b7e7de07.js"
+    "static/js/main.29c39c0f.js"
   ]
 }
