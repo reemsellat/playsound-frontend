@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reemsellat/playsound-frontend/static/css/main.655b2594.css",
-    "main.js": "/reemsellat/playsound-frontend/static/js/main.29c39c0f.js",
-    "static/media/playsound_prev_ui.png": "/reemsellat/playsound-frontend/static/media/playsound_prev_ui.de109a9af28d895103c1.png",
-    "static/media/dvd.jpg": "/reemsellat/playsound-frontend/static/media/dvd.56928a1aeadec0f283e9.jpg",
-    "index.html": "/reemsellat/playsound-frontend/index.html",
-    "main.655b2594.css.map": "/reemsellat/playsound-frontend/static/css/main.655b2594.css.map",
-    "main.29c39c0f.js.map": "/reemsellat/playsound-frontend/static/js/main.29c39c0f.js.map"
+    "main.css": "/playsound-frontend/static/css/main.655b2594.css",
+    "main.js": "/playsound-frontend/static/js/main.fa825cb5.js",
+    "static/media/playsound_prev_ui.png": "/playsound-frontend/static/media/playsound_prev_ui.de109a9af28d895103c1.png",
+    "static/media/dvd.jpg": "/playsound-frontend/static/media/dvd.56928a1aeadec0f283e9.jpg",
+    "index.html": "/playsound-frontend/index.html",
+    "main.655b2594.css.map": "/playsound-frontend/static/css/main.655b2594.css.map",
+    "main.fa825cb5.js.map": "/playsound-frontend/static/js/main.fa825cb5.js.map"
   },
   "entrypoints": [
     "static/css/main.655b2594.css",
-    "static/js/main.29c39c0f.js"
+    "static/js/main.fa825cb5.js"
   ]
 }
