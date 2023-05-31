@@ -13,8 +13,9 @@ const Account = () => {
   user_name = user_name.name.split(user_name.name[0])[1]
   useEffect(() => {
     const fetchWorkouts = async () => {
-      const response = await fetch('/api/tracks', {
+      const response = await fetch('https://tricky-pink-sweater.cyclic.app/api/tracks', {
         headers: {'Authorization': user_name},
+        
       })
       const json = await response.json()
 

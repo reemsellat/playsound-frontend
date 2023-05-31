@@ -63,7 +63,7 @@ const TrackForm = () => {
               getDownloadURL(uploadTask.snapshot.ref).then(async (audioURL) => {
                 const track = { genre, audioURL, imageURL, title, user_name }
 
-                const response = await fetch('/api/tracks', {
+                const response = await fetch('https://tricky-pink-sweater.cyclic.app/api/tracks', {
                   method: 'POST',
                   body: JSON.stringify(track),
                   headers: {

@@ -19,19 +19,19 @@ function App() {
         <div className="pages">
           <Routes>
             <Route 
-              path="/playsound-frontend" 
+              path="/" 
               element={ <Home /> } 
             />
             <Route 
-              path="/playsound-frontend/login" 
-              element={!user ? <Login /> : <Navigate to="/playsound-frontend" />} 
+              path="/login" 
+              element={!user ? <Login /> : <Navigate to="/" />} 
             />
             <Route 
-              path="/playsound-frontend/signup" 
-              element={!user ? <Signup /> : <Navigate to="/playsound-frontend" />} 
+              path="/signup" 
+              element={!user ? <Signup /> : <Navigate to="/" />} 
             />
             <Route
-            path='/playsound-frontend/:name'
+            path='/:name'
             element={<Account></Account>}
             />
           </Routes>

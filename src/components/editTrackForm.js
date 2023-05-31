@@ -44,7 +44,7 @@ const EditTrackForm = ({track}) => {
           const audioURL=track.audioURL
          let zero=0
           const trackToUpdate = {zero, genre,zero, audioURL, imageURL, title, user_name }
-          const response = await fetch('/api/tracks/' + track._id, {
+          const response = await fetch('https://tricky-pink-sweater.cyclic.app/api/tracks/' + track._id, {
             method: 'PATCH',
             body: JSON.stringify(trackToUpdate),
             headers: {

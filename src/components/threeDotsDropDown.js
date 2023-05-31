@@ -32,7 +32,7 @@ function ThreeDotsDropDown({track}){
         }).catch((error) => {
           console.log(error)
         })
-        const response = await fetch('/api/tracks/' + track._id, {
+        const response = await fetch('https://tricky-pink-sweater.cyclic.app/api/tracks/' + track._id, {
           method: 'DELETE',
           headers: {
             'Authorization': `Bearer ${user.token}`

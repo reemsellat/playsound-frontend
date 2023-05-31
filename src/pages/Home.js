@@ -17,7 +17,7 @@ const Home = () => {
   }
   useEffect(() => {
     const fetchTracks = async () => {
-      const response = await fetch('/api/alltracks')
+      const response = await fetch('https://tricky-pink-sweater.cyclic.app/api/alltracks')
       
        
       const json = await response.json()

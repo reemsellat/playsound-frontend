@@ -120,7 +120,7 @@ const TrackDetails = ({ track }) => {
     const plays = p.current
     const user_name = trackUserName
     const trackToUpdate = { plays, genre, likes, audioURL, imageURL, title, user_name }
-    const response = await fetch('/api/tracks/' + id.current, {
+    const response = await fetch('https://tricky-pink-sweater.cyclic.app/api/tracks/' + id.current, {
       method: 'PATCH',
       body: JSON.stringify(trackToUpdate),
       headers: {
